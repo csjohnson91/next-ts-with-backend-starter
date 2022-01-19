@@ -33,6 +33,8 @@ yarn web:dev
 yarn api:dev
 ```
 
+## Test it's working
+
 With both servers running, you should be able to see:
 
 > Test: Hello, World!
