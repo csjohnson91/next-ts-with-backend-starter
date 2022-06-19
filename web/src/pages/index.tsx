@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>TypeScript starter for Next.js</title>
+        <title>TS/Next.js Starter</title>
         <meta
           name="description"
           content="TypeScript starter for Next.js that includes all you need to build amazing apps"
@@ -23,11 +23,12 @@ export default function Home() {
         </h1>
 
         <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.tsx</code>
+          Get started by editing
+          <code className={styles.code}>web/src/pages/index.tsx</code>
+          and<code className={styles.code}>api/server.ts</code>
         </p>
 
-        <p className={styles.description}>Test: {data ? data : error}</p>
+        <p className={styles.description}>API Test: {data ? data : error}</p>
 
         <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>
@@ -62,14 +63,20 @@ export default function Home() {
 
       <footer className={styles.footer}>
         <a
-          href="https://vercel.com?utm_source=typescript-nextjs-starter"
+          href="https://github.com/csjohnson91/next-ts-with-backend-starter"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '}
+          This template is available at
           <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span>
+            <Image
+              src="/GitHub-Mark-120px-plus.png"
+              alt="GitHub Logo"
+              width={16}
+              height={16}
+            />
+          </span>{' '}
+          github.com/csjohnson91/next-ts-with-backend-starter
         </a>
       </footer>
     </div>
